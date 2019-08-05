@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "user@teste.com",
+        "name": "Guilherme",
+        "email": "user@teste.com",
+        "password": "$2a$10$Pezs9RYNjvi3abAXIm55sepfx3B65ocMNrCNQIDgbgDxiAtns/5T."
+    },
+    {
+        "_id": "teste@teste.com",
+        "name": "Guilherme",
+        "email": "teste@teste.com",
+        "password": "$2a$10$94.XlxDt5Y7JDEPcckiezujKPkT5qW3CLf9l6OaVYrOZXUFDYClTe"
+    },
+    {
+        "_id": "teste2@teste.com",
+        "name": "Guilherme",
+        "email": "teste2@teste.com",
+        "password": "$2a$10$SCquut.qLvgc0phD82pOTuj2kVzspcArjLVVjB/pWG5Rb32VtQJhC"
+    },
+    {
+        "_id": "teste3@teste.com",
+        "name": "Guilherme",
+        "email": "teste3@teste.com",
+        "password": "$2a$10$Eu/oqstVzLlv9x7HWvbJ6umRqeqD2qyFEXL4wM5HYQNHYsR.K1T3u"
+    },
+    {
+        "_id": "teste4@teste.com",
+        "name": "Guilherme",
+        "email": "teste4@teste.com",
+        "password": "$2a$10$kXdUhKQsQOX2j/lga9T1ku3zaGkjigIGKWqaXnDzUgoetA98g/ht2"
+    }
+]
