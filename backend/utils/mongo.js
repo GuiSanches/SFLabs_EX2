@@ -24,7 +24,7 @@ async function getAllUsers() {
 }
 
 async function deleteUserById(_id) {
-    return await db.collection("users").deleteOne({_id});
+    return db.collection("users").deleteOne({_id});
 }
 
 async function HasDeletedUser(promise) {
@@ -35,10 +35,7 @@ async function UpdateUserdata(_id, data) {
     let query = {email: _id};
     let newValues = {$set: data};
 
-    db.collection("users").updateOne(query,newValues, (err, res) => {
-        if(err) throw err;
-        console.log("1 document update");
-    });
+    db.collection("users").updateOne(query,newValues);
 }
 
 module.exports = { 
